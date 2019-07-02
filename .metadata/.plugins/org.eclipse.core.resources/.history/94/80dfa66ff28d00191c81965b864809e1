@@ -1,0 +1,27 @@
+package Anandclass;
+
+import java.io.IOException;
+
+public class ReadData {
+public static void main(String[] args) throws IOException {
+	
+	Xls_Reader x1=new Xls_Reader("D:\\210519\\Testng\\src\\testdata\\testdata.xls");
+	int rows=x1.getrowcount("data");
+	int colms=x1.getColumncount("data");
+	System.out.println(rows);
+	System.out.println(colms);
+			
+	String val=x1.getCellData("data", 2, 1);
+	System.out.println(val);
+	
+			
+			
+			
+			
+			
+			
+			
+	
+	
+}
+}

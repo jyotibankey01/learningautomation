@@ -1,0 +1,15 @@
+package javapractice;
+
+public class Ifelse {
+
+	public static void main(String[] args) {
+		int age=10;
+		if(age%2==0)
+			System.out.println("evnen");
+		else {
+			System.out.println("odd");
+		}
+
+	}
+
+}

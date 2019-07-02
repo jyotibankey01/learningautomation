@@ -1,0 +1,14 @@
+
+Feature: As user I want to test login feature with multiple data set
+
+
+
+  Scenario Outline: To Test login with invalid credentials
+    Given Application is up and runnig
+    When When i enter username and password
+    Then I verify the <status> in step
+
+    Examples: 
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |

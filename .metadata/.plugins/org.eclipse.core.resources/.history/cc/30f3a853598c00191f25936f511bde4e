@@ -1,0 +1,12 @@
+<suite name= "Test">
+<test name= "Testng">
+<classes>
+
+<class  name="Testng.NewTest" />
+
+</classes>
+
+
+</test>
+
+</suite>

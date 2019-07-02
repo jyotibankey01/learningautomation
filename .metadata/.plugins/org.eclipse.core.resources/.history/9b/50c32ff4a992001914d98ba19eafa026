@@ -1,0 +1,25 @@
+package mousehover;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+public class mousehover {
+	
+		@Test
+		public void hover() throws InterruptedException {
+		System.setProperty("window.chrome.driver", "D:\\Driver\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.flipkart.com/");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//button[@class='_2AkmmA _29YdH8']")).click();
+		Actions action=new Actions(driver);
+		WebElement web=driver.findElement(By.xpath("//span[@class='_1QZ6fC _3Lgyp8']"));
+		action.moveToElement(web).build().perform();
+		
+		
+}
+	}

@@ -1,0 +1,18 @@
+package libraries;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import configuration.Config;
+
+public class ApplicationLibrary {
+	
+public WebDriver LaunchBrowser() {
+	System.setProperty("window.chrome.driver", Config.chromeDriverPath);
+	WebDriver driver=new ChromeDriver();
+	driver.manage().window().maximize();
+	return driver;
+	//driver.get("https://www.flipkart.com/");
+	
+}
+}

@@ -1,0 +1,12 @@
+package Anandclass;
+
+import org.testng.annotations.Test;
+
+public class Test4 {
+@Test
+public void login() {
+	System.out.println("Enter username- anandbhayre2007");
+	System.out.println("Enter password -abcd");
+	System.out.println("click on login button");
+}
+}

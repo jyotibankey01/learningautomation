@@ -1,0 +1,3 @@
+@Test method will execute by default alpha numeric
+if you set any priority test will execute based on that
+default priority is o of ant @test

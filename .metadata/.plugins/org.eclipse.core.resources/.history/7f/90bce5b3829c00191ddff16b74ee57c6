@@ -1,0 +1,11 @@
+package configuration;
+
+public class Config {
+	public final static String chromeDriverPath=System.getProperty("user.dir")+"\\driver\\chromedriver.exe";
+	
+	public final static String testDataPath=System.getProperty("user.dir")+"\\driver\\chromedriver.exe";		
+	public final static String urlapplicationurl="http://www.newtours.demoaut.com";	
+	//public final static String testDataPath=System.getProperty("user.dir")+"\\driver\\chromedriver.exe";	
+	////D:\210519\Framework\src\testdata\testdata.xls
+
+}

@@ -1,0 +1,9 @@
+package oops.inheritance;
+
+public class telephone {
+
+	public void telephone() {
+		
+		System.out.println();
+	}
+}

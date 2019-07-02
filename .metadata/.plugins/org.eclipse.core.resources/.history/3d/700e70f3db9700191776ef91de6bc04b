@@ -1,0 +1,13 @@
+package snippet;
+
+public class Snippet {
+	public static void main(String[] args) {
+		<dependency>
+		    <groupId>org.testng</groupId>
+		    <artifactId>testng</artifactId>
+		    <version>6.13.1</version>
+		    <scope>test</scope>
+		</dependency>
+	}
+}
+

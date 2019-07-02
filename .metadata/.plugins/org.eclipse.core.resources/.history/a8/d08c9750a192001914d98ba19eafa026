@@ -1,0 +1,13 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class multiselectbox {
+	@Test
+	public void test() throws InterruptedException {
+	System.setProperty("window.chrome.driver", "D:\\Driver\\chromedriver.exe");
+	WebDriver driver=new ChromeDriver();
+	driver.get("http://newtours.demoaut.com/");
+	driver.manage().window().maximize();
+}
+}

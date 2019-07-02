@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;excelfile&apos; to &apos;excelfilemanupluation&apos;&#x0D;&#x0A;- Original project: &apos;210519&apos;&#x0D;&#x0A;- Original element: &apos;210519/src/excelfile&apos;&#x0D;&#x0A;- Renamed element: &apos;210519/src/excelfilemanupluation&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;excelfile&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;excelfile" name="excelfilemanupluation" qualified="false" references="true" stamp="1558535349494" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,15 @@
+<suite name ="jyoti">
+<test name ="anand">
+<Classes>
+
+
+<class name="Anandclass.test2"></class>
+<class name="Anandclass.test3"></class>
+</Classes>
+
+
+
+
+</test>
+
+</suite>

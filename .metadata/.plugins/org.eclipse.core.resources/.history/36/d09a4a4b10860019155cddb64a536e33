@@ -1,0 +1,21 @@
+package stringClass;
+
+public class Testing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String name ="Anand";
+String name2 ="jyoti";
+//charAt
+System.out.println(name.charAt(4));
+//Equal
+System.out.println(name.equalsIgnoreCase(name2));
+if(name.equals(name2)) {
+	System.out.println("name are same");
+	
+}
+else
+	System.out.println("not same");
+	}
+
+}

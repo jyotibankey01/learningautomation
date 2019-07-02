@@ -1,0 +1,13 @@
+package oops.inheritance;
+
+public class user {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Smartphone s1=new Smartphone();
+s1.calling();
+s1.internet();
+s1.texting();
+	}
+
+}
